@@ -17,19 +17,22 @@
             <li><a href="#inicio" class="hover:underline">Inicio</a></li>
             <li><a href="#sobre" class="hover:underline">Sobre nosotros</a></li>
             <li><a href="#funciona" class="hover:underline">¿Cómo funciona?</a></li>
+            <li><a href="#comprar" class="hover:underline">Comprar</a></li>
             <li><a href="#contacto" class="hover:underline">Contacto</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <!-- Imagen con texto encima -->
     <section class="relative w-full h-64">
-      <img src="img/lapiz.jpg" alt="Lápiz ecológico" class="w-full h-full object-cover brightness-75">
-      <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-5xl font-extrabold text-center px-4">
-        Transformando lápices en conciencia ambiental ✏️🌱
-      </h2>
-    </section>
+  <img src="img/lapiz.jpg" alt="Lápiz ecológico" class="w-full h-full object-cover brightness-75">
+  <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-5xl font-extrabold text-center px-4">
+    Transformando lápices en conciencia ambiental ✏️🌱
+  </h2>
+</section>
+
+<!-- Hero -->
+<section id="inicio" class="bg-green-100 py-16 px-4 text-center">
 
     <!-- Hero -->
     <section id="inicio" class="bg-green-100 py-16 px-4 text-center">
@@ -66,6 +69,88 @@
         </div>
       </div>
     </section>
+
+ <!-- Comprar lápices -->
+<section id="comprar" class="py-16 px-6 bg-green-50">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Compra lápices</h2>
+    <p class="mb-8 text-gray-700">Adquiere nuestros lápices ecológicos y contribuye con la causa.</p>
+    
+     <div class="max-w-md mx-auto mb-8 text-left bg-white p-6 rounded shadow">
+      <p class="font-semibold mb-2">Paquete escolar con 5 lápices a un precio inicial de <span class="text-green-700 font-bold">$26.75 MXN</span>. Este precio incluye:</p>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Diseño atractivo.</li>
+        <li>Frase educativa sobre el medio ambiente.</li>
+        <li>Instrucciones para la siembra.</li>
+      </ul>
+    </div>
+
+    <form class="max-w-md mx-auto space-y-4 text-left">
+      <label class="block font-semibold" for="nombre">Nombre completo</label>
+      <input id="nombre" type="text" placeholder="Tu nombre" class="w-full border border-gray-300 p-3 rounded" required />
+
+      <label class="block font-semibold" for="email">Correo electrónico</label>
+      <input id="email" type="email" placeholder="Tu correo" class="w-full border border-gray-300 p-3 rounded" required />
+
+      <label class="block font-semibold" for="cantidad">Cantidad de lápices</label>
+      <input
+        id="cantidad"
+        type="number"
+        min="1"
+        placeholder="Ingresa la cantidad"
+        class="w-full border border-gray-300 p-3 rounded"
+        required
+      />
+
+      <hr class="my-6" />
+
+      <h3 class="text-xl font-semibold mb-4">Información de la tarjeta</h3>
+
+      <label class="block font-semibold" for="titular">Nombre del titular</label>
+      <input id="titular" type="text" placeholder="Nombre como aparece en la tarjeta" class="w-full border border-gray-300 p-3 rounded" required />
+
+      <label class="block font-semibold" for="numero">Número de tarjeta</label>
+      <input
+        id="numero"
+        type="text"
+        inputmode="numeric"
+        maxlength="19"
+        placeholder="1234 5678 9012 3456"
+        class="w-full border border-gray-300 p-3 rounded"
+        required
+      />
+
+      <div class="flex space-x-4">
+        <div class="flex-1">
+          <label class="block font-semibold" for="expiracion">Fecha de expiración</label>
+          <input
+            id="expiracion"
+            type="text"
+            placeholder="MM/AA"
+            maxlength="5"
+            class="w-full border border-gray-300 p-3 rounded"
+            required
+          />
+        </div>
+        <div class="flex-1">
+          <label class="block font-semibold" for="cvv">CVV</label>
+          <input
+            id="cvv"
+            type="password"
+            maxlength="4"
+            placeholder="123"
+            class="w-full border border-gray-300 p-3 rounded"
+            required
+          />
+        </div>
+      </div>
+
+      <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 w-full">Realizar compra</button>
+    </form>
+  </div>
+</section>
+
+
 
     <!-- Contacto -->
     <section id="contacto" class="py-16 px-6 bg-white">
