@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trazzy | Transformando lápices en conciencia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
+
+    <!-- Encabezado -->
+    <header class="bg-green-700 text-white p-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Trazzy</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+            <li><a href="#sobre" class="hover:underline">Sobre nosotros</a></li>
+            <li><a href="#funciona" class="hover:underline">¿Cómo funciona?</a></li>
+            <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Imagen con texto encima -->
+    <section class="relative w-full h-64">
+      <img src="img/lapiz.jpg" alt="Lápiz ecológico" class="w-full h-full object-cover brightness-75">
+      <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-5xl font-extrabold text-center px-4">
+        Transformando lápices en conciencia ambiental ✏️🌱
+      </h2>
+    </section>
+
+    <!-- Hero -->
+    <section id="inicio" class="bg-green-100 py-16 px-4 text-center">
+      <h2 class="text-4xl font-extrabold mb-4">Transformando lápices en conciencia</h2>
+      <p class="text-lg max-w-2xl mx-auto">Trazzy nace como una respuesta creativa y ecológica ante el desperdicio de lápices. Queremos darles una segunda vida y crear un impacto positivo.</p>
+      <a href="#sobre" class="mt-6 inline-block bg-green-700 text-white px-6 py-2 rounded-lg shadow hover:bg-green-800 transition">Conoce más</a>
+    </section>
+
+    <!-- Sobre nosotros -->
+    <section id="sobre" class="py-16 px-6 bg-white">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Nuestra historia</h2>
+        <p class="text-gray-700">Trazzy surge al observar cómo los lápices usados terminan en la basura. Decidimos cambiar eso, convirtiéndolos en arte, educación y conciencia ambiental.</p>
+      </div>
+    </section>
+
+    <!-- ¿Cómo funciona? -->
+    <section id="funciona" class="py-16 px-6 bg-gray-100">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">¿Cómo funciona Trazzy?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded shadow">
+            <h3 class="text-xl font-semibold mb-2">1. Recolectamos</h3>
+            <p>Recibimos lápices usados de escuelas, oficinas y personas comprometidas.</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow">
+            <h3 class="text-xl font-semibold mb-2">2. Transformamos</h3>
+            <p>Los lápices se convierten en obras artísticas, material educativo y más.</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow">
+            <h3 class="text-xl font-semibold mb-2">3. Conectamos</h3>
+            <p>Mostramos a las personas el impacto que generan al participar con Trazzy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-16 px-6 bg-white">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Contáctanos</h2>
+        <form class="space-y-4 text-left">
+          <input type="text" placeholder="Tu nombre" class="w-full border border-gray-300 p-3 rounded" />
+          <input type="email" placeholder="Tu correo" class="w-full border border-gray-300 p-3 rounded" />
+          <textarea placeholder="Tu mensaje" rows="4" class="w-full border border-gray-300 p-3 rounded"></textarea>
+          <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-green-700 text-white text-center p-4">
+      <p>&copy; 2025 Trazzy. Todos los derechos reservados.</p>
+    </footer>
+
+  </body>
+</html>
