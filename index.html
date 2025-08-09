@@ -1,174 +1,212 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trazzy | Transformando lápices en conciencia</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-white text-gray-800 font-sans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trazzy | Planta una semilla, escribe una historia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
 
-    <!-- Encabezado -->
-    <header class="bg-green-700 text-white p-4 shadow-md">
-      <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-2xl font-bold">Trazzy</h1>
-        <nav>
-          <ul class="flex space-x-6">
-            <li><a href="#inicio" class="hover:underline">Inicio</a></li>
-            <li><a href="#sobre" class="hover:underline">Sobre nosotros</a></li>
-            <li><a href="#funciona" class="hover:underline">¿Cómo funciona?</a></li>
-            <li><a href="#comprar" class="hover:underline">Comprar</a></li>
-            <li><a href="#contacto" class="hover:underline">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="relative w-full h-64">
-  <img src="img/lapiz.jpg" alt="Lápiz ecológico" class="w-full h-full object-cover brightness-75">
-  <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-5xl font-extrabold text-center px-4">
-    Transformando lápices en conciencia ambiental ✏️🌱
-  </h2>
-</section>
-
-<!-- Hero -->
-<section id="inicio" class="bg-green-100 py-16 px-4 text-center">
-
-    <!-- Hero -->
-    <section id="inicio" class="bg-green-100 py-16 px-4 text-center">
-      <h2 class="text-4xl font-extrabold mb-4">Transformando lápices en conciencia</h2>
-      <p class="text-lg max-w-2xl mx-auto">Trazzy nace como una respuesta creativa y ecológica ante el desperdicio de lápices. Queremos darles una segunda vida y crear un impacto positivo.</p>
-      <a href="#sobre" class="mt-6 inline-block bg-green-700 text-white px-6 py-2 rounded-lg shadow hover:bg-green-800 transition">Conoce más</a>
-    </section>
-
-    <!-- Sobre nosotros -->
-    <section id="sobre" class="py-16 px-6 bg-white">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-6">Nuestra historia</h2>
-        <p class="text-gray-700">Trazzy surge al observar cómo los lápices usados terminan en la basura. Decidimos cambiar eso, convirtiéndolos en arte, educación y conciencia ambiental.</p>
-      </div>
-    </section>
-
-    <!-- ¿Cómo funciona? -->
-    <section id="funciona" class="py-16 px-6 bg-gray-100">
-      <div class="max-w-6xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-10">¿Cómo funciona Trazzy?</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-white p-6 rounded shadow">
-            <h3 class="text-xl font-semibold mb-2">1. Recolectamos</h3>
-            <p>Recibimos lápices usados de escuelas, oficinas y personas comprometidas.</p>
-          </div>
-          <div class="bg-white p-6 rounded shadow">
-            <h3 class="text-xl font-semibold mb-2">2. Transformamos</h3>
-            <p>Los lápices se convierten en obras artísticas, material educativo y más.</p>
-          </div>
-          <div class="bg-white p-6 rounded shadow">
-            <h3 class="text-xl font-semibold mb-2">3. Conectamos</h3>
-            <p>Mostramos a las personas el impacto que generan al participar con Trazzy.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
- <!-- Comprar lápices -->
-<section id="comprar" class="py-16 px-6 bg-green-50">
-  <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-6">Compra lápices</h2>
-    <p class="mb-8 text-gray-700">Adquiere nuestros lápices ecológicos y contribuye con la causa.</p>
-    
-     <div class="max-w-md mx-auto mb-8 text-left bg-white p-6 rounded shadow">
-      <p class="font-semibold mb-2">Paquete escolar con 5 lápices a un precio inicial de <span class="text-green-700 font-bold">$26.75 MXN</span>. Este precio incluye:</p>
-      <ul class="list-disc list-inside text-gray-700">
-        <li>Diseño atractivo.</li>
-        <li>Frase educativa sobre el medio ambiente.</li>
-        <li>Instrucciones para la siembra.</li>
-      </ul>
+  <!-- Encabezado -->
+  <header class="bg-green-700 text-white p-4 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Trazzy</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+          <li><a href="#sobre" class="hover:underline">Sobre nosotros</a></li>
+          <li><a href="#funciona" class="hover:underline">¿Cómo funciona?</a></li>
+          <li><a href="#comprar" class="hover:underline">Comprar</a></li>
+          <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <form class="max-w-md mx-auto space-y-4 text-left">
-      <label class="block font-semibold" for="nombre">Nombre completo</label>
-      <input id="nombre" type="text" placeholder="Tu nombre" class="w-full border border-gray-300 p-3 rounded" required />
+  <!-- Hero con imagen -->
+  <section class="relative w-full h-64">
+    <img src="img/trazzy1.jpg" alt="Lápiz ecológico" class="w-full h-full object-cover brightness-75">
+    <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-5xl font-extrabold text-center px-4 drop-shadow-lg">
+      Planta una semilla, escribe una historia
+    </h2>
+  </section>
 
-      <label class="block font-semibold" for="email">Correo electrónico</label>
-      <input id="email" type="email" placeholder="Tu correo" class="w-full border border-gray-300 p-3 rounded" required />
+  <!-- Intro -->
+  <section id="inicio" class="bg-green-100 py-16 px-4 text-center">
+    <h2 class="text-4xl font-extrabold mb-4">Planta una semilla, escribe una historia</h2>
+    <p class="text-lg max-w-2xl mx-auto">Nace del deseo de romper el ciclo de consumo desechable. Es un lápiz que, al terminar su función, no muere, sino que se convierte en semilla. Literalmente.</p>
+    <a href="#sobre" class="mt-6 inline-block bg-green-700 text-white px-6 py-2 rounded-lg shadow hover:bg-green-800 transition">Conoce más</a>
+  </section>
 
-      <label class="block font-semibold" for="cantidad">Cantidad de lápices</label>
-      <input
-        id="cantidad"
-        type="number"
-        min="1"
-        placeholder="Ingresa la cantidad"
-        class="w-full border border-gray-300 p-3 rounded"
-        required
-      />
-
-      <hr class="my-6" />
-
-      <h3 class="text-xl font-semibold mb-4">Información de la tarjeta</h3>
-
-      <label class="block font-semibold" for="titular">Nombre del titular</label>
-      <input id="titular" type="text" placeholder="Nombre como aparece en la tarjeta" class="w-full border border-gray-300 p-3 rounded" required />
-
-      <label class="block font-semibold" for="numero">Número de tarjeta</label>
-      <input
-        id="numero"
-        type="text"
-        inputmode="numeric"
-        maxlength="19"
-        placeholder="1234 5678 9012 3456"
-        class="w-full border border-gray-300 p-3 rounded"
-        required
-      />
-
-      <div class="flex space-x-4">
-        <div class="flex-1">
-          <label class="block font-semibold" for="expiracion">Fecha de expiración</label>
-          <input
-            id="expiracion"
-            type="text"
-            placeholder="MM/AA"
-            maxlength="5"
-            class="w-full border border-gray-300 p-3 rounded"
-            required
-          />
-        </div>
-        <div class="flex-1">
-          <label class="block font-semibold" for="cvv">CVV</label>
-          <input
-            id="cvv"
-            type="password"
-            maxlength="4"
-            placeholder="123"
-            class="w-full border border-gray-300 p-3 rounded"
-            required
-          />
-        </div>
+    <section id="funciona" class="py-16 px-6 bg-gray-100">
+  <div class="max-w-5xl mx-auto">
+    <!-- Título opcional -->
+    <h2 class="text-3xl font-bold text-center mb-12">Nuestro Lápiz Sustentable</h2>
+    
+    <!-- Collage Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      <!-- Imagen 1 -->
+      <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+        <img src="img/trazzy4.jpg" alt="Grafito no tóxico" class="w-full h-48 object-cover rounded mb-3">
+        <p class="text-center font-medium">Grafito no tóxico</p>
       </div>
-
-      <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 w-full">Realizar compra</button>
-    </form>
+      
+      <!-- Imagen 2 -->
+      <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+        <img src="img/trazzy5.jpg" alt="Periódico reciclado" class="w-full h-48 object-cover rounded mb-3">
+        <p class="text-center font-medium">Periódico reciclado</p>
+      </div>
+      
+      <!-- Imagen 3 -->
+      <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+        <img src="img/trazzy6.jpg" alt="Cápsula con semillas" class="w-full h-48 object-cover rounded mb-3">
+        <p class="text-center font-medium">Cápsula con semillas</p>
+      </div>
+      
+      <!-- Imagen 4 -->
+      <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+        <img src="img/trazzy7.jpg" alt="Planta una semilla, escribe una historia" class="w-full h-48 object-cover rounded mb-3">
+        <p class="text-center font-medium">Planta una semilla,<br>escribe una historia</p>
+      </div>
+    </div>
   </div>
 </section>
 
+  <!-- Sobre nosotros -->
+  <section id="sobre" class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Nuestra historia</h2>
+      <p class="text-gray-700">Trazzy surge al observar cómo los lápices usados terminan en la basura. Decidimos cambiar eso, convirtiéndolos en arte, educación y conciencia ambiental.</p>
+    </div>
+  </section>
 
 
-    <!-- Contacto -->
-    <section id="contacto" class="py-16 px-6 bg-white">
-      <div class="max-w-xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-6">Contáctanos</h2>
-        <form class="space-y-4 text-left">
-          <input type="text" placeholder="Tu nombre" class="w-full border border-gray-300 p-3 rounded" />
-          <input type="email" placeholder="Tu correo" class="w-full border border-gray-300 p-3 rounded" />
-          <textarea placeholder="Tu mensaje" rows="4" class="w-full border border-gray-300 p-3 rounded"></textarea>
-          <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Enviar</button>
-        </form>
+  <!-- ¿Cómo funciona? -->
+ <section id="funciona" class="py-16 px-6 bg-gray-100">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center">¿Cómo funciona Trazzy? El lápiz que escribe y siembra</h2>
+    <p class="mb-10 text-center text-lg italic max-w-3xl mx-auto">
+      Trazzy es mucho más que un lápiz ecológico. Es una herramienta educativa, un símbolo de conciencia ambiental y una experiencia transformadora. Su funcionamiento combina diseño inteligente, materiales sostenibles y un propósito claro: <span class="font-semibold">convertir cada idea escrita en una semilla de cambio</span>.
+    </p>
+
+    <div class="space-y-10">
+      <!-- 1. Fabricación consciente -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold mb-4">🧩 1. Fabricación consciente</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li><strong>Material principal:</strong> Trazzy está hecho de papel periódico reciclado, lo que evita la tala de árboles y reduce el desperdicio de papel.</li>
+          <li><strong>Proceso artesanal:</strong> El papel se enrolla cuidadosamente alrededor de una mina de grafito, formando un cuerpo resistente, ligero y biodegradable.</li>
+          <li><strong>Diseño personalizado:</strong> Se pueden incluir mensajes educativos, ilustraciones o branding institucional en el cuerpo del lápiz, reforzando su valor comunicativo.</li>
+        </ul>
       </div>
-    </section>
 
-    <!-- Pie de página -->
-    <footer class="bg-green-700 text-white text-center p-4">
-      <p>&copy; 2025 Trazzy. Todos los derechos reservados.</p>
-    </footer>
+      <!-- 2. Cápsula con semillas -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold mb-4">🌱 2. Cápsula con semillas</h3>
+        <p class="text-gray-700">
+          En el extremo superior del lápiz se encuentra una <em>cápsula biodegradable</em> que contiene semillas seleccionadas (como albahaca, cilantro, girasol, entre otras). Esta cápsula está diseñada para <em>proteger las semillas</em> durante el uso del lápiz y facilitar su germinación una vez plantado.
+        </p>
+      </div>
 
-  </body>
+      <!-- 3. Uso cotidiano -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold mb-4">🌿 3. Uso cotidiano</h3>
+        <p class="text-gray-700">
+          Trazzy funciona como cualquier lápiz: escribe con suavidad, es cómodo de usar y puede afilarse con sacapuntas. Es ideal para escuelas, oficinas, talleres creativos y eventos educativos.
+        </p>
+      </div>
+
+      <!-- 4. Segunda vida: sembrar el lápiz -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold mb-4">🌎 4. Segunda vida: sembrar el lápiz</h3>
+        <ol class="list-decimal list-inside text-gray-700 space-y-2">
+          <li>Se coloca verticalmente en una maceta o directamente en la tierra, con la cápsula hacia abajo.</li>
+          <li>Se riega regularmente, permitiendo que la cápsula se desintegre y las semillas germinen.</li>
+          <li>En pocos días, comienza a brotar una planta, simbolizando que cada pensamiento puede convertirse en vida.</li>
+        </ol>
+      </div>
+
+      <!-- ¿Qué lo hace especial? -->
+      <div class="bg-white p-6 rounded shadow text-center">
+        <h3 class="text-2xl font-semibold mb-4">💡 ¿Qué lo hace especial?</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-xl mx-auto">
+          <li><strong>Educativo:</strong> Enseña sobre el ciclo de vida, el reciclaje y el cuidado del medio ambiente.</li>
+          <li><strong>Emocional:</strong> Conecta el acto de escribir con el acto de sembrar, creando una experiencia significativa.</li>
+          <li><strong>Sostenible:</strong> Promueve la economía circular y el consumo responsable.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="funciona" class="py-16 px-6 bg-gray-100">
+  <div class="max-w-3xl mx-auto text-center mb-12">
+    <img src="img/plantarlapiz.jpg" alt="Planta tu lápiz" class="mx-auto rounded shadow-lg max-w-xs md:max-w-sm h-auto" />
+  </div>
+</section>
+
+  <!-- Comprar lápices -->
+  <section id="comprar" class="py-16 px-6 bg-green-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Compra lápices</h2>
+      <p class="mb-8 text-gray-700">Adquiere nuestros lápices ecológicos y contribuye con la causa.</p>
+      
+      <div class="max-w-md mx-auto mb-8 text-left bg-white p-6 rounded shadow">
+        <p class="font-semibold mb-2">Paquete escolar con 5 lápices a un precio inicial de <span class="text-green-700 font-bold">$26.75 MXN</span>. Este precio incluye:</p>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Diseño atractivo.</li>
+          <li>Frase educativa sobre el medio ambiente.</li>
+          <li>Instrucciones para la siembra.</li>
+        </ul>
+      </div>
+
+      <form id="compraForm" class="max-w-md mx-auto space-y-4 text-left bg-white p-6 rounded shadow">
+        <label class="block font-semibold" for="nombre">Nombre completo</label>
+        <input id="nombre" type="text" placeholder="Tu nombre" class="w-full border border-gray-300 p-3 rounded" required />
+
+        <label class="block font-semibold" for="email">Correo electrónico</label>
+        <input id="email" type="email" placeholder="Tu correo" class="w-full border border-gray-300 p-3 rounded" required />
+
+        <label class="block font-semibold" for="cantidad">Cantidad de lápices</label>
+        <input id="cantidad" type="number" min="1" placeholder="Ingresa la cantidad" class="w-full border border-gray-300 p-3 rounded" required />
+
+        <p class="text-gray-600 text-sm mt-4">El pago será procesado de forma segura por Stripe.</p>
+
+        <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 w-full transition">Realizar compra</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Script para Stripe -->
+  <script>
+    document.getElementById("compraForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const nombre = encodeURIComponent(document.getElementById("nombre").value.trim());
+      const email = encodeURIComponent(document.getElementById("email").value.trim());
+      const cantidad = encodeURIComponent(document.getElementById("cantidad").value.trim());
+      const stripeLink = `https://buy.stripe.com/test_eVq00j1PPeBD2it0iabMQ00?prefilled_email=${email}&client_reference_id=${nombre}&quantity=${cantidad}`;
+      window.location.href = stripeLink;
+    });
+  </script>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 px-6 bg-white">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contáctanos</h2>
+      <form class="space-y-4 text-left">
+        <input type="text" placeholder="Tu nombre" class="w-full border border-gray-300 p-3 rounded" />
+        <input type="email" placeholder="Tu correo" class="w-full border border-gray-300 p-3 rounded" />
+        <textarea placeholder="Tu mensaje" rows="4" class="w-full border border-gray-300 p-3 rounded"></textarea>
+        <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-green-700 text-white text-center p-4">
+    <p>&copy; 2025 Trazzy. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
 </html>
