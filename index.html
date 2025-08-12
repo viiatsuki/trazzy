@@ -187,10 +187,62 @@
     </div>
   </section>
 
+  <!-- Políticas y contacto -->
+<section class="bg-green-50 py-10 px-6">
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+    <!-- Políticas -->
+    <div>
+      <h3 class="text-xl font-bold text-green-800 mb-4">Políticas</h3>
+      <ul class="space-y-2 text-green-700">
+        <li><a href="#" class="hover:underline">Distribuidores Autorizados</a></li>
+        <li><a href="#" class="hover:underline">Búsqueda</a></li>
+        <li><a href="#" class="hover:underline">Políticas de Privacidad</a></li>
+        <li><a href="#" class="hover:underline">Términos y condiciones</a></li>
+        <li><a href="#" class="hover:underline">Políticas de envío</a></li>
+        <li><a href="#" class="hover:underline">Políticas de cambios y devoluciones</a></li>
+      </ul>
+    </div>
+    <!-- Contacto -->
+    <div>
+      <h3 class="text-xl font-bold text-green-800 mb-4">Redes Sociales</h3>
+      <p class="font-semibold">Instagram</p>
+      <p class="text-green-700">@trazzy.23</p>
+    </div>
+  </div>
+</section>
+
+
   <!-- Pie -->
   <footer class="bg-green-700 text-white text-center p-4">
     <p>&copy; 2025 Trazzy. Todos los derechos reservados.</p>
   </footer>
+
+<!-- Botón flotante WhatsApp -->
+<a href="https://wa.me/5218971172844" target="_blank"
+   class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 24 24">
+    <path d="M12.005 2.003a9.993 9.993 0 0 0-8.543 15.268l-1.151 4.204 4.305-1.13a10.004 10.004 0 0 0 15.295-8.342c0-5.522-4.478-10-10-10zm0 18.2a8.2 8.2 0 0 1-4.178-1.152l-.3-.18-2.554.67.684-2.485-.197-.31a8.197 8.197 0 0 1 13.208-9.576 8.196 8.196 0 0 1-6.663 13.033zm4.482-6.127c-.245-.122-1.45-.716-1.675-.797s-.388-.122-.552.122-.634.797-.777.96-.286.184-.531.061a6.68 6.68 0 0 1-1.96-1.206 7.275 7.275 0 0 1-1.34-1.657c-.143-.245-.015-.377.107-.5.11-.11.245-.286.368-.429.122-.143.163-.245.245-.408.082-.163.041-.306-.02-.429-.061-.122-.552-1.33-.757-1.819-.2-.48-.402-.414-.552-.422l-.471-.008c-.163 0-.429.061-.654.306s-.857.837-.857 2.041.877 2.371 1 2.534c.122.163 1.729 2.642 4.194 3.701.587.253 1.045.404 1.403.517.59.188 1.127.162 1.55.098.473-.071 1.45-.592 1.654-1.164.204-.571.204-1.061.143-1.164-.061-.102-.224-.163-.469-.285z"/>
+  </svg>
+</a>
+
+<!-- Botón para abrir modal -->
+<button onclick="document.getElementById('modalCarrito').classList.remove('hidden')" 
+        class="fixed bottom-20 right-5 bg-green-700 text-white px-4 py-2 rounded shadow hover:bg-green-800">
+  Ver carrito
+</button>
+
+<!-- Modal -->
+<div id="modalCarrito" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+  <div class="bg-white rounded-lg shadow-lg w-80 p-6 text-center relative">
+    <!-- Botón cerrar -->
+    <button onclick="document.getElementById('modalCarrito').classList.add('hidden')" 
+            class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+    <h2 class="text-lg font-bold mb-4">Tu carrito está vacío</h2>
+    <a href="#comprar" class="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded block mb-4">Seguir comprando</a>
+    <p class="text-sm">¿Tienes una cuenta? <a href="#" class="underline text-green-700">Inicia sesión</a> para finalizar tus compras con mayor rapidez.</p>
+  </div>
+</div>
+
 
 </body>
 </html>
